@@ -51,9 +51,9 @@ export default class App extends Component {
                         this.whichComponent()
                     }
                 </div>
-                <ul>
+                <ul className='ul'>
                     {
-                        this.state.title.map((item) => <li key={item.id} className={this.state.current === item.id ? 'active' : null} onClick={() => { this.handleClick(item.id) }}>{item.content}</li>)
+                        this.state.title.map((item) => <li key={item.id} className={this.state.current === item.id ? 'active li' : 'li'} onClick={() => { this.handleClick(item.id) }}>{item.content}</li>)
                     }
                 </ul>
             </div>

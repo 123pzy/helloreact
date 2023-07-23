@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-ul {
-    position: absolute;
+.ul {
+    position: fixed;
     bottom: 1rem;
     width: 100vw;
     display: grid;
@@ -13,9 +13,10 @@ ul {
     justify-items: center;
 }
 
-li {
+.li {
     list-style-type: none;
 }
-.active{
+
+.active {
     color: red;
 }
