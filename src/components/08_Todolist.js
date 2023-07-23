@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './css/index.css'
+import './css/todoList.css'
 
 export default class App extends Component {
     myinput = React.createRef()
