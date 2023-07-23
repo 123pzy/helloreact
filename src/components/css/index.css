@@ -1,0 +1,18 @@
+.todolist-container {
+    width: 40vw;
+}
+
+.todolist-box {
+    width: 15vw;
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 50px;
+}
+
+.inp {
+    margin-left: 2rem;
+}
+
+.hidden {
+    display: none;
+}
